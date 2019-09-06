@@ -1,0 +1,40 @@
+{
+  "name": "@bouscaa/crowdtangle-cli",
+  "version": "1.0.0",
+  "description": "Cli for Crowdtangle Api",
+  "main": "src/index.js",
+  "bin": {
+    "@bouscaa/crowdtangle-cli": "bin/crowdtangle-cli",
+    "crowdtangle-cli": "bin/crowdtangle-cli"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "crowdtangle-cli"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bousca/Crowdtangle-cli.git"
+  },
+  "author": "Antonin Bouscarel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bousca/Crowdtangle-cli/issues"
+  },
+  "homepage": "https://github.com/bousca/Crowdtangle-cli#readme",
+  "dependencies": {
+    "arg": "^4.1.1",
+    "async": "^3.1.0",
+    "chalk": "^2.4.2",
+    "esm": "^3.2.25",
+    "inquirer": "^7.0.0",
+    "json2csv": "^4.5.2",
+    "ora": "^3.4.0",
+    "request": "^2.88.0"
+  }
+}
